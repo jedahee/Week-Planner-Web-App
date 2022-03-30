@@ -1,0 +1,132 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="shortcut icon" href="img/clipboard.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agenda Semanal</title>
+    
+    <!-- HTML -->
+    
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Project -->
+    <script src="main.js"></script>
+    </head>
+
+    <body>
+    <div class="day monday">
+        <h1 class="title">Lunes</h1>
+        <div class="content">
+        </div>
+    </div>
+    
+    <div class="day tuesday">
+        <h1 class="title">Martes</h1>
+        <div class="content">
+        </div>
+    </div>
+    
+    <div class="day wednesday">
+        <h1 class="title">Miércoles</h1>
+        <div class="content">
+        </div>
+    </div>
+    
+    <div class="day thursday">
+        <h1 class="title">Jueves</h1>
+        <div class="content">
+        </div>
+    </div>
+    
+    <div class="day friday">
+        <h1 class="title">Viernes</h1>
+        <div class="content">
+        </div>
+    </div>
+    
+    <div class="day saturday">
+        <h1 class="title">Sábado</h1>
+        <div class="content">
+        </div>
+    </div>
+    
+    <div class="day sunday">
+        <h1 class="title">Domingo</h1>
+        <div class="content">
+        </div>
+    </div>
+    
+    <div class="add">
+        
+    </div>
+    <div class="edit">
+        
+    </div>
+    <div class="reset">
+    
+    </div>
+    
+    <div class="windowConfirm windowReset">
+        <span>¿Estás seguro que quieres borrar todas las notas? </span>
+        <div>
+                <button class="btnYes">Si</button>
+                <button class="btnNo">No</button>
+        </div>
+    </div>
+    
+    <div class="windowConfirm windowDelete">
+        <span>¿Estas seguro que quieres borrar esta nota?</span>
+        <div>
+                <button class="btnYes">Si</button>
+                <button class="btnNo">No</button> 
+        </div>
+    </div>
+    
+    <div class="windowConfirm viewAllTask">
+        <img class="close" src="img/check-simple.svg">
+        <textarea class="task-text"></textarea>
+        <img class="delTask" src="img/trash-2.svg">
+    </div>
+
+    <div class="windowAddTask">
+        <textarea id="text" placeholder="Apunta los deberes..."></textarea>
+        <div class="checkboxes">
+            <div>
+                <input type="checkbox" name="day" id="monday" class="checkbox">
+                <label for="monday">Lunes</label>
+            </div>
+            <div>
+                <input type="checkbox" name="day" id="tuesday" class="checkbox">
+                <label for="tuesday">Martes</label>
+            </div>
+            <div>
+                <input type="checkbox" name="day" id="wednesday" class="checkbox">
+                <label for="wednesday">Miércoles</label>
+            </div>
+            <div>
+                <input type="checkbox" name="day" id="thursday" class="checkbox">
+                <label for="thursday">Jueves</label>
+            </div>
+            <div>
+                <input type="checkbox" name="day" id="friday" class="checkbox">
+                <label for="friday">Viernes</label>
+            </div>
+            <div>
+                <input type="checkbox" name="day" id="saturday" class="checkbox">
+                <label for="saturday">Sábado</label>
+            </div>
+            <div>
+                <input type="checkbox" name="day" id="sunday" class="checkbox">
+                <label for="sunday">Domingo</label>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="save">Guardar</button>
+            <button class="cancel">Cancelar</button>
+        </div>
+    </div>
+    </body>
+    </html>
