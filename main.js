@@ -195,6 +195,8 @@ function readTasks() {
 
             document.querySelector("." + obj.day + " > .content").appendChild(div);
         }
+
+        isCompleted();
         
         document.querySelectorAll(".completed").forEach(completedTask => {
             completedTask.onclick = (e) => {
