@@ -1,6 +1,6 @@
 # WeekPlanner
 
-_The web application that will help you keep track of exactly how much you smoke and how much you spend on it._
+_Web application made to organize your weekly tasks._
 
 <ul>
     <img src="https://github.com/jedahee/Week-Planner-Web-App/assets/56111700/45be7382-28f8-4fec-8c07-3e5c349b8a26" alt="Image 1" width="200px" height="430px">
