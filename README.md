@@ -1,4 +1,4 @@
-![image](https://github.com/jedahee/Week-Planner-Web-App/assets/56111700/3b092434-6264-4355-a8ce-14050539d14c)# WeekPlanner
+# WeekPlanner
 
 _The web application that will help you keep track of exactly how much you smoke and how much you spend on it._
 
